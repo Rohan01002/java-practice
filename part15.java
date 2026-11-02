@@ -11,9 +11,9 @@ public class part15{
         n=sc.nextInt();     
         if(n%10==0)
         {
-            break;
+            continue;
         }
-
+System.out.print(" "+n);
         }while(true);
 
     }
