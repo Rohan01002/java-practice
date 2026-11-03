@@ -6,15 +6,16 @@ public class part15{
     {
         int n;
         Scanner sc=new Scanner (System.in);
-       
-        do{
-        n=sc.nextInt();     
-        if(n%10==0)
-        {
-            continue;
-        }
-System.out.print(" "+n);
-        }while(true);
+         System.out.println("Enter the n value");
+         n=sc.nextInt();
+         for(int i=0;i<n;i++)
+         {
+            for(int j=0;j<n;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+         }
 
     }
 }
