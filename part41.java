@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class part41 {
-    public static void main(String agrs[]){
+    public static void main(String []agrs){
         int r,c;
         Scanner sc = new Scanner (System.in);
         r=sc.nextInt();
